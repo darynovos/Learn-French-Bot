@@ -1,0 +1,11 @@
+- load_definitions:
+    num_def: 3
+    site: https://www.larousse.fr/dictionnaires/francais/
+    from_lang: "fr"
+    to_lang: "en"
+  telegram_bot:
+    token: ""
+    start: "Bienvenue au LearnFrench bot! 
+            \nsend /help to find out how to use me."
+    help:  "Send a word which you would like to learn 
+            \nand I will send you definitions and translation."
